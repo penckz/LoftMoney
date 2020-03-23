@@ -16,9 +16,9 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btnMainNext).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent secondActivity = new Intent(getApplicationContext(), SecondActivity.class);
-                secondActivity.putExtra("Title", "Iron man");
-                startActivity(secondActivity);
+                Intent addItemActivity = new Intent(getApplicationContext(), AddItemActivity.class);
+                addItemActivity.putExtra("Title", "Iron man");
+                startActivity(addItemActivity);
             }
         });
     }
