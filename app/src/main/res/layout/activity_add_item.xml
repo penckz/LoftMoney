@@ -15,20 +15,20 @@
         >
 
         <EditText
-            android:textSize="24sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/priceName"
-            android:textColor="@color/editColor">
+            android:textColor="@color/editColor"
+            style="@style/TextSize">
         </EditText>
 
         <EditText
             android:layout_marginTop="18dp"
-            android:textSize="24sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/textName"
-            android:textColor="@color/editColor">
+            android:textColor="@color/editColor"
+            style="@style/TextSize">
         </EditText>
 
     </LinearLayout>
@@ -40,7 +40,7 @@
         android:layout_alignEnd="@id/activity_add_main"
         android:layout_below="@+id/activity_add_main"
         android:layout_marginStart="112dp"
-        android:layout_marginEnd="-8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginTop="61dp"
         android:textSize="14sp"
         android:drawableLeft="@drawable/add_button"
