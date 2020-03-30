@@ -15,6 +15,19 @@
         >
 
         <EditText
+            android:id="@+id/addTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/textName"
+            android:textColor="@color/editColor"
+            style="@style/TextSize"
+            android:capitalize="sentences">
+        </EditText>
+
+        <EditText
+            android:id="@+id/addTextValue"
+            android:inputType="number"
+            android:layout_marginTop="18dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/priceName"
@@ -22,18 +35,10 @@
             style="@style/TextSize">
         </EditText>
 
-        <EditText
-            android:layout_marginTop="18dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/textName"
-            android:textColor="@color/editColor"
-            style="@style/TextSize">
-        </EditText>
-
     </LinearLayout>
 
     <Button
+        android:id="@+id/btnTextEnter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/btnName"
@@ -43,8 +48,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginTop="61dp"
         android:textSize="14sp"
-        android:drawableLeft="@drawable/add_button"
-        android:background="@null"
+        android:drawableStart="@drawable/add_button"
         android:textColor="@color/white">
 
     </Button>
