@@ -8,4 +8,5 @@
     <color name="editColor">#3574fa</color>
     <color name="light_primary_text_color">#666664</color>
     <color name="light_accent_text_color">#4a90e2</color>
+    <color name="black">#070707</color>
 </resources>
